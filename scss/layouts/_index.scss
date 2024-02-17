@@ -1,0 +1,50 @@
+/* Slider de fotos */
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/* Media queries pantalla small */
+@media (max-width:768px) {
+    #intro, #equipo {
+        width: 90% !important;
+    }
+
+    #bg-contacto {
+        top: -110px;  
+    }
+
+    .accesorios-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+/* Media queries pantalla extra small */
+@media (max-width:576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+/* Container fluid grid */
+.container-fluid-grid {
+    padding: 100px;
+}
+
+/* Footer */
+footer {
+    background: #2db3bd;
+    min-height: 100px;
+
+    p {
+        color: white;
+        text-align: center;
+    }
+
+    #iconos i {
+        font-size: 25px;
+        padding: 0 8px;
+        color: #f5f2f2;
+    }
+}

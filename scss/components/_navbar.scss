@@ -1,0 +1,35 @@
+/* navbar */
+
+#menu {
+    li {
+        > a {
+            font-size: 16px;
+            font-weight: bold;
+            color: #3f3f3f;
+        }
+    }
+
+    form {
+        > button {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
+
+.text-primary {
+    color: #2db3bd !important;
+}
+
+.btn-primary {
+    background-color: #2db3bd;
+    border-color: #2db3bd;
+    color: #ecfdff;
+
+    &:hover {
+        background-color: #ecfdff;
+        color: #2db3bd;
+        border-color: #2db3bd;
+    }
+}
+

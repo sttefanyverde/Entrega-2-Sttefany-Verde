@@ -1,0 +1,68 @@
+/* productos page hero */
+
+.hero {
+  @include flex(column, center, center, 15px);
+  background-image: url('../images/pexels-anna-shvets-3846049.jpg');
+  background-size: cover;
+  height: 600px;
+
+  .text-secondary {
+    color: #ffffff !important;
+    font-size: 16px !important;
+  }
+
+  .hero-content {
+    @include flex(column, center, center);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.422);
+
+    h1 {
+      font-size: 60px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 24px;
+      width: 60%;
+    }
+  }
+}
+
+/* cards productos */
+
+.row {
+  margin: 0;
+}
+
+.card {
+  width: 400px;
+  border-radius: 0;
+  border: 2px solid #2db3bd;
+  padding: 0;
+  transition: .4s;
+  overflow: hidden;
+
+  .card-img-top {
+    width: 100%;
+    border-radius: 0;
+    filter: blur(5px);
+    transition: .4s;
+  }
+
+  &:hover {
+    background-color: #2db3bd;
+    color: #111;
+    box-shadow: 3px 3px 3px #11111154;
+
+    .btn-primary {
+      border: 2px solid #1d7e87;
+      box-shadow: 3px 3px 3px #fff;
+    }
+
+    .card-img-top {
+      filter: blur(0);
+    }
+  }
+}
