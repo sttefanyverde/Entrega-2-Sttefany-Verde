@@ -1,0 +1,23 @@
+/* Media queries pantalla small */
+@media (max-width:768px) {
+    #intro, #equipo {
+        width: 90% !important;
+    }
+
+    #bg-contacto {
+        top: -110px;  
+    }
+
+    .accesorios-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+/* Media queries pantalla extra small */
+@media (max-width:576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
