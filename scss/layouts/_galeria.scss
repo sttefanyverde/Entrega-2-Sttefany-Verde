@@ -1,0 +1,24 @@
+/* Galería */
+
+main {
+    text-align: center;
+  
+    h1 {
+      font-size: 2rem;
+      margin-top: 2rem;
+    }
+  
+    #carouselExample {
+      margin-top: 2rem;
+  
+      .carousel-inner {
+        img {
+          border-radius: 10px;
+        }
+      }
+  
+      .carousel-control-prev, .carousel-control-next {
+        width: 5%;
+      }
+    }
+  }
