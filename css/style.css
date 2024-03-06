@@ -41,8 +41,8 @@ body {
 
 .bounce-top {
   text-align: center;
-  background-color: #1d7e87;
-  color: #ecfdff;
+  background-color: #259ca5;
+  color: #ffffff;
   font-weight: bold;
   font-size: 32px;
 	-webkit-animation: bounce-top 0.9s both;
@@ -353,7 +353,30 @@ body {
     background-color: #2db3bd;
   }
 
+/* Galería */
 
+main {
+  text-align: center;
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  #carouselExample {
+    margin-top: 2rem;
+
+    .carousel-inner {
+      img {
+        border-radius: 10px;
+      }
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+      width: 5%;
+    }
+  }
+}
  
   
 
@@ -368,6 +391,7 @@ body {
 .container-fluid-grid {
     padding: 100px;
 }
+
 
 /* footer */
 
